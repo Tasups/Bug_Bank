@@ -40,13 +40,12 @@ const Posts = () => {
   }
 
   const deletePost = (id) => {
+    // const updatedPosts = posts.filter((post) => post._id !== id);
+    // setPosts(updatedPosts);
     axios
       .delete(`/delete/${id}`) 
       .then(res => console.log(res))
       .catch(err => console.log(err))
-    
-    const updatedPosts = posts.filter((post) => post._id !== id)
-    setPosts(updatedPosts)
   }
   
   const updatePost = (post) => {
