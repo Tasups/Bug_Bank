@@ -1,0 +1,27 @@
+.posts__container{
+  width: 30rem;
+  margin: auto auto;
+  text-align: center;
+}
+
+.posts__card{
+  border: solid black 1px;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  background-color: #E9EBEE;
+  padding: 1rem;
+}
+
+.posts__button-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.posts__buton{
+  width: 40%;
+}
+
+.posts__back-button{
+  width: 8rem;
+  margin-bottom: 1rem;
+}
